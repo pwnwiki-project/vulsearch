@@ -5,5 +5,9 @@
 
 
 
-#### 📸ScreenShot:
+#### 📸Screenshots:
+
+![p1.jpg](https://github.com/pwnwikiorg/vulsearch/blob/main/images/p1.jpg?raw=true)
+
+![p2.jpg](https://github.com/pwnwikiorg/vulsearch/blob/main/images/p2.jpg?raw=true)
 
