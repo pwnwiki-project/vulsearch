@@ -16,8 +16,8 @@ text_list = []
 url = 'https://www.pwnwiki.org/index.php?title='
 console = Console()
 table = Table(show_header=True, header_style="bold magenta")
-table.add_column("id", style="dim", width=8)
-table.add_column("Title")
+table.add_column("ID", style="dim", width=8)
+table.add_column("TITLE")
 
 parser = argparse.ArgumentParser(usage='%(prog)s [options]')
 parser.add_argument("-v", "--version", help="Output program version", action="store_true", default=True)
@@ -96,7 +96,8 @@ else:
             op = input("\033[1;34m[INFO]\033[0m Open the specified web page?(yes/y/Yes/YES/Y/Press any key to exit)：")
             if op == "yes" or op == "Yes" or op == "y" or op == "YES" or op == "Y":
                 op1 = input(
-                    "\033[1;34m[INFO]\033[0m Please enter ID(values：%s - %s)：" % (int(args.number) + 1, int(len(text_list))))
+                    "\033[1;34m[INFO]\033[0m Please enter 
+                    (values：%s - %s)：" % (int(args.number) + 1, int(len(text_list))))
                 page = int(op1)
                 openpage(page, int(f1[1]))
             else:
