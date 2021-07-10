@@ -3,4 +3,5 @@ pymediawiki==0.7.0
 requests==2.25.1
 soupsieve==2.2.1
 urllib3==1.26.5
+cowsay
 
