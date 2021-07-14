@@ -96,8 +96,7 @@ else:
             op = input("\033[1;34m[INFO]\033[0m Open the specified web page?(yes/y/Yes/YES/Y/Press any key to exit)：")
             if op == "yes" or op == "Yes" or op == "y" or op == "YES" or op == "Y":
                 op1 = input(
-                    "\033[1;34m[INFO]\033[0m Please enter 
-                    (values：%s - %s)：" % (int(args.number) + 1, int(len(text_list))))
+                    "\033[1;34m[INFO]\033[0m Please enter (values：%s - %s)：" % (int(args.number) + 1, int(len(text_list))))
                 page = int(op1)
                 openpage(page, int(f1[1]))
             else:
