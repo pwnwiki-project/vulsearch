@@ -44,7 +44,7 @@ def openpage(value, count):
 
 
 if args.version:
-    print("\033[1;34m[Version]\033[0m PwnDatas-DB-Project(PDDP) & vulsearch 1.0.2")  # Blue
+    print("\033[1;34m[Version]\033[0m PwnWiki-DB-Project(PWDP) & vulsearch 1.0.2")  # Blue
 
 if args.number:
     number = args.number
