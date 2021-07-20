@@ -7,6 +7,7 @@
 </p>
 
 #### 🔔Release Notes：
+- July,20,2021: Fix a bug.
 - July,14,2021: Fix a bug.
 - July,10,2021: Fix a bug.
 
