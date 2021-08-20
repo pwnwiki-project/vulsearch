@@ -6,10 +6,6 @@
 <img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square">
 </p>
 
-#### 🔔Release Notes：
-- July,20,2021: Fix a bug.
-- July,14,2021: Fix a bug.
-- July,10,2021: Fix a bug.
 
 
 #### 🌍Languages:
